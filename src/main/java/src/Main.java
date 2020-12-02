@@ -25,6 +25,7 @@ public class Main {
        senario.ajouteEffet(new Rotation(2, monBandeau, "tournicoti"));
        senario.ajouteEffet(new Zoom(2, monBandeau, "zoomicoti"));
        senario.ajouteEffet(new Clignote(2, monBandeau, "clignoticoti"));
+       
        senario.jouerEffets();
        
        
